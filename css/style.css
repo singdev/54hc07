@@ -719,7 +719,7 @@
  .overlay-background {
      background-image: url("../images/background.jpg");
      position: absolute;
-     height: 70%;
+     height: 100vh;
      width: 100%;
      left: 0;
      top: 0;
