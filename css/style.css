@@ -718,23 +718,26 @@
      height: 100%;
 }
  .overlay-background {
-     background-image: url("../images/background.jpg");
-     position: absolute;
-     height: 100%;
-     width: 100%;
-     left: 0;
-     top: 0;
-     opacity: 0.3;
+background-image: url("https://i2.wp.com/africtelegraph.com/wp-content/uploads/2017/07/Pharmacie-Les-Forestiers-%C3%A0-Libreville.jpg?resize=777%2C437&ssl=1");
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.2 #000;
 }
  .cover-slides h1{
      font-family: 'Montserrat', sans-serif;
      font-weight: 500;
      font-size: 64px;
-     color:  #009900;
+     color:  #fff;
 }
  .cover-slides p{
      font-size: 18px;
-     color:  #009900;
+     color:  #fff;
      padding-bottom: 30px;
 }
  .slides-pagination a{
