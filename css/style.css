@@ -735,6 +735,23 @@ background-image: url("https://i2.wp.com/africtelegraph.com/wp-content/uploads/2
      font-size: 64px;
      color:  #fff;
 }
+.importerpdf {
+  cursor: pointer;
+  background: #999900;
+  color: #fff;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.import {
+  display: none;
+}
+.importerpdf label {
+  cursor: pointer;
+}
  .cover-slides p{
      font-size: 18px;
      color:  #fff;
