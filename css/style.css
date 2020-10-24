@@ -2398,7 +2398,32 @@
      white-space: nowrap;
 }
  
+/*ici la div qui a l'icone et l'input, couleur de fond et taille. avant de changer la taille de la barre il faut d'abord retirer le width ajuster la taille de l'input et mettre une nouvelle width ici*/
+.recherche {
+  width: 90%;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #009900;
+  border-radius: 5px;
+}
+.recherche img {
+  height: 20px;
+}
+/*L'input en lui mm c'est ici pour faire des modifications le concernant*/
+.recherche input {
+  height: 30px;
+      width: 720px;
 
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 0px 7px;
+}
+.recherche p {
+  color: #fff;
+}
 
 
 
