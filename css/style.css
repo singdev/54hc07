@@ -49,6 +49,7 @@
      transition: all .3s ease-in-out;
 }
  h1, h2, h3, h4, h5, h6 {
+     text-align: center;
      letter-spacing: 0;
      font-weight: normal;
      position: relative;
@@ -719,22 +720,21 @@
  .overlay-background {
      background-image: url("../images/background.jpg");
      position: absolute;
-     height: 100vh;
+     height: 100%;
      width: 100%;
      left: 0;
      top: 0;
      opacity: 0.3;
 }
  .cover-slides h1{
-     margin-top:100px;
      font-family: 'Montserrat', sans-serif;
      font-weight: 500;
      font-size: 64px;
-     color: #000;
+     color:  #009900;
 }
  .cover-slides p{
      font-size: 18px;
-     color: #000;
+     color:  #009900;
      padding-bottom: 30px;
 }
  .slides-pagination a{
@@ -841,6 +841,7 @@
      position: relative;
 }
  .box-img-hover img{
+     height: 120px;
      margin: 0 auto;
      text-align: center;
      display: block;
